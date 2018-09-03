@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 * {
   box-sizing: border-box;
   font-weight: normal;
@@ -8,8 +8,7 @@ body {
   color: rgb(85, 85, 85);
   background: #fff;
   text-align: center;
-  font-family: 'Roboto Mono';
-  padding: 1em;
+  font-family: 'Varela Round', sans-serif;
 }
 
 h1 {
