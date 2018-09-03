@@ -1,20 +1,23 @@
-import React  from 'react';
+import React, {Component}  from 'react';
 import './Mode-one.css';
-const Mode_one = (props) => {
+class Mode extends Component{ 
+    render(){
     return (
         <div>
-<div className="flip">
-    <div className="front">
-       <h1 class="text-shadow">{props.name}</h1>
-    </div>
-    <div className="back">
-       <h2>{props.des}</h2>
-       <p>..</p>
-    </div>
-</div>
-</div>
+            <div className="flip">
+                <div className="front">
+                    <h1 class="text-shadow">{props.name}</h1>
+                </div>
+                <div className="back">
+                    <h2>{props.des}</h2>
+                    <p>..</p>
+                </div>
+            </div>
+        </div>
 
     )
+}
 };
 
-export default Mode_one;
+
+export default Mode;
