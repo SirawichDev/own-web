@@ -5,7 +5,12 @@
   --color-3: #08aeea;
   --color-4: #96deda;
 }
+*{
+    margin: 0 auto;
+
+}
 body {
+    padding: 2em;
   font-family: 'Varela Round', sans-serif;
   margin:0 auto;
 }
@@ -20,7 +25,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(19deg, var(--color-4), var(--color-1));
+  background-image: linear-gradient(to right top, rgba(128, 216, 255, 0.623), rgba(0, 174, 255, 0.719)), url('../../../assets/images/mode1.jpg');
+  background-size: cover;
   -webkit-transform-origin: 0px 0px;
           transform-origin: 0px 0px;
   -webkit-transform: skewY(-10deg);
@@ -64,8 +70,8 @@ body {
 @media (min-width: 58rem) {
   .Header-visuals {
     margin: 0;
-    -webkit-transform: translateY(0rem) rotate(80deg);
-            transform: translateX(5rem) translateY(7rem) rotate(80deg);
+    -webkit-transform: translateX(5rem) translateY(7rem) rotate(80deg);
+            transform: translateX(10rem) translateY(10rem) rotate(80deg);
   }
 }
 .Button {

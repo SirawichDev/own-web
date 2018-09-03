@@ -17,9 +17,7 @@ class App extends Component {
     return (
       <div>
         <Headers/>
-
         <Mode mode={this.state.Mode}/>
-
       </div>
     );
   }
