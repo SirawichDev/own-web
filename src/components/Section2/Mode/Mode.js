@@ -1,39 +1,27 @@
-import React  from 'react';
+import React,{Component} from 'react';
 import './Mode.css';
-const Mode = (props) => {
+import ModeOne from './Mode-1/Mode-one';
+class  Mode extends Component {
+
+    constructor(props){
+        super();
+        this.state ={
+            Mode:[
+                {name: "Front-End",descripe:"Vuejs,React,Angular",imageurl:""},
+                {name: "Back-End", descripe:"Nodejs,Golang,Python",imageurl:""},
+                {name: "Full-Stack", descripe:"Using Golang ,Vuejs, gCloud", imageurl:""}
+            ]
+        }
+    }
+
+    render(){
     return (
         <div>
-<div class="flip">
-    <div class="front">
-       <h1 class="text-shadow">Front-End</h1>
-    </div>
-    <div class="back">
-       <h2>Vuejs,React,Angular</h2>
-       <p>..</p>
-    </div>
-</div>
-<div class="flip">
-    <div class="front">
-       <h1 class="text-shadow">Back-End</h1>
-    </div>
-    <div class="back">
-       <h2>Golang,Nodejs,</h2>
-       <p>..</p>
-    </div>
-</div>
-<div class="flip">
-    <div class="front">
-       <h1 class="text-shadow">Full-Stack</h1>
-    </div>
-    <div class="back">
-       <h2>Golang+Vuejs+GCP</h2>
-       <p>.</p>
-    </div>
-</div>
-</div>
-
-        
+            <ModeOne name="Vuejs"
+                         des="Vuejs,React,Angular"/>
+        </div>
     )
+}
 };
 
 export default Mode;
