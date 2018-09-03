@@ -10,7 +10,7 @@ body {
 }
 .Header {
   position: relative;
-  height: 80vh;
+  height: 70vh;
   display: block;
 }
 .Header-background {
@@ -62,9 +62,9 @@ body {
 }
 @media (min-width: 58rem) {
   .Header-visuals {
-    margin: 0;
-    -webkit-transform: translateY(-5rem) rotate(-10deg);
-            transform: translateY(-5rem) rotate(20deg);
+    margin: 30%;
+    -webkit-transform: translateY(-5rem) rotate(60deg);
+            transform: translateY(-5rem) rotate(80deg);
   }
 }
 .Button {
@@ -94,7 +94,7 @@ body {
   display: inline-block;
   background: #fff;
   padding: 4rem 0.6rem 0;
-
+border-radius: 20px 20px 20px;
   text-align: center;
 }
 .Iphone::before,
@@ -103,10 +103,9 @@ body {
   display: block;
 }
 .Iphone::before {
-  background-color: var(--color-3);
-  background-image: linear-gradient(0deg, var(--color-3) 0%, var(--color-4) 100%);
+  background-image: linear-gradient(5deg, var(--color-3) 0%, var(--color-4) 100%);
   width: 16rem;
-  padding-top: .5%;
+  padding-top: 80%;
 }
 .Iphone::after {
   display: inline-block;
