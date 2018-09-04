@@ -11,7 +11,7 @@ const Headers = (props) => {
             <button class="Button">Let's Tour</button>
         </div>
         <div class="Header-visuals">
-            <div class="Iphone"></div>
+            <div class="framer"></div>
         </div>
         </div>
         </div>   

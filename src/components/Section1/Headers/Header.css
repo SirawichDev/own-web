@@ -97,19 +97,19 @@ body {
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
 }
-.Iphone {
+.framer {
   display: inline-block;
   background: #fff;
   padding: .1rem 0.6rem 0;
 border-radius: 20px 20px 20px;
   text-align: center;
 }
-.Iphone::before,
-.Iphone::after {
+.framer::before,
+.framer::after {
   content: '';
   display: block;
 }
-.Iphone::before {
+.framer::before {
     transform: rotate(-90deg);
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ border-radius: 20px 20px 20px;
     width: 16rem;
     padding-top: 100%;
 }
-/* .Iphone::after {
+/* .framer::after {
   display: inline-block;
   margin: 0.6rem;
   padding: 1.4rem;
