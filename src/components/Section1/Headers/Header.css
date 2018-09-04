@@ -71,7 +71,7 @@ body {
   .Header-visuals {
     margin: 0;
     -webkit-transform: translateX(5rem) translateY(7rem) rotate(80deg);
-            transform: translateX(10rem) translateY(10rem) rotate(80deg);
+            transform: translateX(15rem) translateY(10rem) rotate(80deg);
   }
   .ButtonSide {
     -webkit-transform: translateX(5rem) translateY(7rem) rotate(80deg);
