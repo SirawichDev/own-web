@@ -10,8 +10,10 @@ class Mode extends Component{
                     <h1 class="text-shadow">{this.props.name}</h1>
                 </div>
                 <div className="back">
-                    <h2>{this.props.des}</h2>
-                    <p>..</p>
+                    <h2>{this.props.descripe}</h2>
+                    <br/>
+                    <br/>
+                    <h1> ❤️ Check Out </h1>
                 </div>
             </div>
 

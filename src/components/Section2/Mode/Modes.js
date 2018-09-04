@@ -9,7 +9,7 @@ class Modes extends Component {
             return this.props.mode.map((mode,index) => {
                 return (
                     <Mode name={mode.name}
-                            descript={mode.descript}
+                            descripe={mode.descripe}
                             image={mode.imageurl}
                             key={index}/>
                 )
