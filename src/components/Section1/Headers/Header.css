@@ -73,6 +73,10 @@ body {
     -webkit-transform: translateX(5rem) translateY(7rem) rotate(80deg);
             transform: translateX(10rem) translateY(10rem) rotate(80deg);
   }
+  .ButtonSide {
+    -webkit-transform: translateX(5rem) translateY(7rem) rotate(80deg);
+            transform: rotate(-90deg);
+  }
 }
 .Button {
   padding: 1.5rem 2rem;
@@ -118,6 +122,43 @@ border-radius: 20px 20px 20px;
     width: 16rem;
     padding-top: 100%;
 }
+.ButtonSide {
+  z-index: 1;
+  cursor: pointer;
+  margin: 25px auto;
+  border: none;
+  padding: 10px 40px;
+  font-size: 20px;
+  position: relative;
+  box-shadow: 0 1.75rem 2rem -0.4rem rgba(50,0,100,0.15);
+}
+.ButtonSide::before {
+  transition: all 0.85s cubic-bezier(0.68, -0.10, 0.265, 1.55);
+  content: '';
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ButtonSide.rounded::before {
+  border-radius: 50px;
+  width: 10%;
+  background: rgb(230, 112, 185);
+}
+.ButtonSide.rounded {
+  border-radius: 50px;
+}
+.ButtonSide.rounded .text-green {
+  color: rgb(68, 240, 0);
+  mix-blend-mode: difference;
+}
+
+.ButtonSide.rounded:hover::before {
+  background: #00F0B5;
+  width: 100%;
+}
+
 /* .framer::after {
   display: inline-block;
   margin: 0.6rem;

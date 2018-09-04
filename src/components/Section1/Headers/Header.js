@@ -2,16 +2,19 @@ import React  from 'react';
 import './Header.css';
 const Headers = (props) => {
     return (  
-        <div class="Header">
-        <div class="Header-background"></div>
-        <div class="Header-content">
-        <div class="Header-hero">
+        <div className="Header">
+        <div className="Header-background"></div>
+        <div className="Header-content">
+        <div className="Header-hero">
             <h1>Welcome To My Portfolio <br/> Enjoy It : )</h1>
             <br/>
-            <button class="Button">Let's Tour</button>
+            <button className="Button">Let's Tour</button>
         </div>
-        <div class="Header-visuals">
-            <div class="framer"></div>
+     
+        <div className="Header-visuals">
+            <button className="ButtonSide rounded"><span className="text-green">Hire Me</span></button>
+            <button className="ButtonSide rounded"><span className="text-green">My Blog</span></button>
+            <div className="framer"></div>
         </div>
         </div>
         </div>   

@@ -8,6 +8,7 @@ h1 {
   
   .flip {
     position: relative;
+    box-shadow: 0 1.75rem 2rem -0.4rem rgba(50,0,100,0.15);
   }
   .flip .front,
   .flip .back {
