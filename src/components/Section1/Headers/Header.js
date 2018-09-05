@@ -8,7 +8,7 @@ const Headers = (props) => {
         <div className="Header-background"></div>
         <div className="Header-content">
         <div className="Header-hero">
-            <h1>Welcome To My Portfolio <br/> Enjoy It : )</h1>
+            <h1>Welcome To My Portfolio <br/> Enjoy It :3</h1>
             <br/>
             <button className="Button">Let's Tour</button>
         </div>
