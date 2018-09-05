@@ -1,6 +1,8 @@
 import React  from 'react';
-import './Header.css';
+import head from './Header.css';
 const Headers = (props) => {
+    const BtnRound= 'ButtonSide rounded';
+    const HeadVr = 'Header-visuals';
     return (  
         <div className="Header">
         <div className="Header-background"></div>
@@ -11,9 +13,9 @@ const Headers = (props) => {
             <button className="Button">Let's Tour</button>
         </div>
      
-        <div className="Header-visuals">
-            <button className="ButtonSide rounded"><span className="text-green">Hire Me</span></button>
-            <button className="ButtonSide rounded"><span className="text-green">My Blog</span></button>
+        <div className={HeadVr}>
+            <button className={BtnRound}><span className="text-green">Hire Me</span></button>
+            <button className={BtnRound}><span className="text-green">My Blog</span></button>
             <div className="framer"></div>
         </div>
         </div>
