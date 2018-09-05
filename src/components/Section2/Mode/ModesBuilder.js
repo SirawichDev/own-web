@@ -1,10 +1,6 @@
 import React,{Component} from 'react';
-import './Mode.css';
 import Mode from './Mode/Mode';
-class Modes extends Component {
-    constructor(props){
-        super();
-    }
+class ModesBuilder extends Component {
         render(){
             return this.props.mode.map((mode,index) => {
                 return (
@@ -14,8 +10,7 @@ class Modes extends Component {
                             key={index}/>
                 )
             });
-    }
-    };
+        }
+};
 
-
-export default Modes;
+export default ModesBuilder;

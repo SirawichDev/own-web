@@ -1,5 +1,5 @@
 import React  from 'react';
-import head from './Header.css';
+import './Header.css';
 const Headers = (props) => {
     const BtnRound= 'ButtonSide rounded';
     const HeadVr = 'Header-visuals';

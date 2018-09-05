@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Headers from './Section1/Headers/Header';
-import Mode from './Section2/Mode/Modes';
+import Headers from './Section1/Headers/HeadersBuilder';
+import Mode from './Section2/Mode/ModesBuilder';
 
 class App extends Component {
   constructor(props){
